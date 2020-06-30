@@ -1,5 +1,5 @@
 from node:alpine
-workdir ''/app'
+workdir '/app'
 copy .package.json ./
 run npm imstall
 copy . .
